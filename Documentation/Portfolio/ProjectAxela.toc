@@ -1,0 +1,10 @@
+\contentsline {section}{Bachelor's project description}{2}{section*.3}
+\contentsline {subsection}{Problem Description}{2}{section*.4}
+\contentsline {subsection}{Research question / Thesis statement}{2}{section*.5}
+\contentsline {subsection}{Approach / Methods}{2}{section*.6}
+\contentsline {section}{Work plan including time table}{3}{section*.7}
+\contentsline {section}{Implications of research}{3}{section*.8}
+\contentsline {section}{Contacts}{4}{section*.9}
+\contentsline {subsection}{Internal supervisor(s)}{4}{section*.10}
+\contentsline {subsection}{Students}{4}{section*.11}
+\contentsline {section}{List of references}{4}{section*.11}
