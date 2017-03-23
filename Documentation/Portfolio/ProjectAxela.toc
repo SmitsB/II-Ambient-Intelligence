@@ -1,5 +1,5 @@
 \contentsline {section}{Project Overview}{2}{section*.2}
 \contentsline {section}{Work plan including time table}{2}{section*.3}
-\contentsline {section}{Load Balancing}{2}{section*.4}
-\contentsline {section}{Project Details}{2}{section*.5}
+\contentsline {section}{Load Balancing}{3}{section*.4}
+\contentsline {section}{Project Details}{3}{section*.5}
 \contentsline {section}{List of references}{3}{section*.6}
