@@ -38,18 +38,12 @@
     
     {\bfseries\large
             Project Axela: The Documentation\\
-            \vskip2cm
-            
-            Bernd Smits\\
-            Sebastiaan Aussems\\
-            Kwinten Schram\\
-            Frederik Smolders\\
-            \vskip2cm           
+            \vskip2cm         
     }   
     {\bfseries   
             
             Supervisors: Maarten Weyn\\
-           	01/01/2017   
+           	14/06/2017   
             
             
             
@@ -68,7 +62,7 @@
 \section*{Project Overview}
 \addcontentsline{toc}{section}{Project Overview}
 
-The goal of this course is creating a Low Power Communication System using a Raspberry Pi 3 \ref{RaspberryPi3} and some mobile nodes. On the Raspberry Pi, we're running an instance of Debian Jessie. The Raspberry will be our gateway for different mobile nodes. It will be a stationary device that has multiple sensors connected and it will receive data from the different mobile nodes. Different packages will be installed on the Raspberry to complete our project successfully, including OpenHAB \ref{OpenHab}.\\
+The goal of this course is creating a Low Power Communication System using a Raspberry Pi 3 and some mobile nodes. On the Raspberry Pi, we're running an instance of Debian Jessie. The Raspberry will be our gateway for different mobile nodes. It will be a stationary device that has multiple sensors connected and it will receive data from the different mobile nodes. Different packages will be installed on the Raspberry to complete our project successfully, including OpenHAB.\\
 
 OpenHAB is a software for integrating different home automation systems and technologies into one single solution that allows over-arching automation rules and that offers uniform user interfaces. It will show all the data from the different mobile nodes and sensors on the Raspberry.\\
 
@@ -76,44 +70,36 @@ The following design gives a detailed view on our project. It's show the used se
 
 \textcolor{red}{ADD PICTURE}
 
-\section*{Work plan including time table}
-\addcontentsline{toc}{section}{Work plan including time table}
-
-The following table gives a detailed view on how we progressed with our project. The first weeks of the semester were meant for testing. We played around with different sensors on a STM32Nucleo ARM-Board which would be implemented during the project.
-
-\begin{table}[h]
-\centering
-\begin{tabular}{ l | p{3cm} | p{6cm} }
-	
-	{\bf{Week (2017)}} & {\bf{Deadline}} & {\bf{Deadline info}} \\
-	\hline
-	&&\\
-	13-03 & Info Received & I get my official project subject and tasks \\
-	20-03 & Info Processed & I understand the project \\
-	27-03 & Stage 1 completed & I know how the car works with all the sensors and how it is remotely controlled \\
-	03-04 & Stage 2 Start & The car needs to know it's location\\
-	10-04 & Stage 2 continued & Follow the lectures to continue my research\\
-	24-04 & Stage 2 completed & Finishing touches on stage 2 and starting stage 3\\
-	01-05 & Stage 3 started & creating PID controller for car\\
-	22-05 & Stage 3 Finished & created PID controller, basic self-driving car is finished\\ 
-	07-06 & Present Project & Project needs to be finished and presented\\
-\end{tabular}
-\caption{Time Table}
-\end{table}
-
-\section*{Load Balancing}
-\addcontentsline{toc}{section}{Load Balancing}
-
-test
-
 \section*{Project Details}
 \addcontentsline{toc}{section}{Project Details}
 
-Overall this bachelor project won't be anything new to someone who has studied software engineering. This is a project around the basics of self-driving cars for students who are interested and want to learn something new in practice. This project is the perfect balance between electronics (using sensors) and writing software (the 'AI'). For me, as a student, this is perfect. I get to learn new things and not just the theory behind everything, I also get the practical background which is always preferable.
+All the details on the project will be explained here, it's a small overview so everyone can follow what other people have done and how they implemented it.
 
-%\section{List of references}
-\bibliography{ProjectAxela} {}
-\addcontentsline{toc}{section}{List of references}
-\bibliographystyle{ieeetr}
+\subsection*{Raspberry Pi 3}
+\addcontentsline{toc}{subsection}{Raspberry Pi 3}
+
+	\subparagraph*{Alexa}
+	\addcontentsline{toc}{subsubsection}{Alexa}
+	
+	\subparagraph*{SI7021 Humidity Sensor}
+	\addcontentsline{toc}{subsubsection}{SI7021 Humidity Sensor}
+	
+	\subparagraph*{MAG3110 Magnetometer}
+	\addcontentsline{toc}{subsubsection}{MAG3110 Magnetometer}
+	
+	\subparagraph*{MPL3115A2 Barometer}
+	\addcontentsline{toc}{subsubsection}{MPL3115A2 Barometer}
+	
+	\subparagraph*{CCS811 CO2 sensor}
+	\addcontentsline{toc}{subsubsection}{CCS811 CO2 sensor}
+
+\subsection*{STM-32 Board Sensors}
+\addcontentsline{toc}{subsection}{STM-32 Board Sensors}
+
+\subsection*{Dash 7 Implementation + fingerprinting}
+\addcontentsline{toc}{subsection}{Dash 7 Implementation + fingerprinting}
+
+\subsection*{OpenHAB}
+\addcontentsline{toc}{subsection}{OpenHAB}
 
 \end{document}
