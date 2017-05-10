@@ -1,9 +1,0 @@
-CubeMximport: import pins from CubeMX to project in Eclipse, make sure Eclipse is closed
-
->>python ~/STM32Toolchain/CubeMXImporter/cubemximporter.py /home/bernd/Dropbox/Eclipse\ Workspace/II-Ambient\ Intelligence/Accelerometer/ /home/bernd/STM32Toolchain/cubemx-out/stm32nucleo-l1/
-
-
-
-Check for USB Device port Linux:
-
->> dmesg | grep tty
