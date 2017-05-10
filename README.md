@@ -13,4 +13,4 @@ A small overview on all the used technologies, implementations and source code. 
 All the final code running on both the STM-boards as on the Taspberry Pi 3
 
 3) Powerpoints:
-Not yet sure if we want to share these
+Not yet sure if we want to share these.
