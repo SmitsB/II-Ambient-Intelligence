@@ -1,6 +1,8 @@
 # II-Ambient-Intelligence
 Course at the university of Antwerp for a Masters Degree in Industial Engineering: Electronics-ICT.
 
+![ScreenShot](InternetOfThings.jpg)
+
 This git will be a storage for the final portfolio of the course.
 The different parts in this git:
 
