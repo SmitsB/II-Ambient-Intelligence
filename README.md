@@ -2,6 +2,7 @@
 Course at the university of Antwerp for a Masters Degree in Industial Engineering: Electronics-ICT.
 
 ![ScreenShot](Images/InternetOfThings.jpg)
+source: http://teltonika.lt/main/wp-content/uploads/2016/10/What-IEEE-thinks-about-IoT.jpg
 
 This git will be a storage for the final portfolio of the course.
 The different parts in this git:
