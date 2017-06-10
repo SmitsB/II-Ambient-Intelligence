@@ -17,10 +17,14 @@ setup a cron task to start the camera script and the sensor script using the fil
 (sensor script can be called every minute or started once, depending on your preferences)
 
 code:
+```bash
 @reboot sh /home/pi/autoLaunch/launchCameraScript.sh
 @reboot sh /home/pi/autoLaunch/launchSensorScript.sh
 */1 * * * * /home/pi/autoLaunch/launchSensorScript.sh
+```
 
 6) Rebuild project:
 Building the source again can be done using the command:
+```C
 gcc -o test test.c rpi_3_sensor_shield.h rpi_3_sensor_shield.c -l bcm2835 -lpython2.7 -lm -L/usr/lib/python2.7/confi -lpaho-mqtt3c
+```
