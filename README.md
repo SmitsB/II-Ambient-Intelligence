@@ -15,3 +15,6 @@ All the final code running on both the STM-boards as on the Raspberry Pi 3.
 
 3) Powerpoints:
 Small presentation of the project, details on the how everything was implemented will be available here.
+
+4) Datasheets:
+Used Datasheets from all the different sensors on both RPI3 and STM-Boards.
