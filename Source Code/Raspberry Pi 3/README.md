@@ -10,13 +10,12 @@ We used Mosquitto
 Follow the instructions: https://eclipse.org/paho/clients/c/
 
 4) Copy the files:
-Copy our files to your machine, you'll need to change the path in some scripts to make them work.
+Copy our files to your machine, you'll need to change the path in some scripts to make them work. Make sure to check everything!
 
 5) Setup cron
 setup a cron task to start the camera script and the sensor script using the files from autoLaunch
 (sensor script can be called every minute or started once, depending on your preferences)
 
-code:
 ```bash
 @reboot sh /home/pi/autoLaunch/launchCameraScript.sh
 @reboot sh /home/pi/autoLaunch/launchSensorScript.sh
