@@ -1,6 +1,4 @@
-# Installation process for the Raspberry Pi 3
-
-##test
+# Info Raspberry Pi 3
 
 1) Install OpenHAB 2:
 follow the instructions on the website: http://docs.openhab.org/installation/linux.html
@@ -45,3 +43,7 @@ Folder contains file to run to capture RPI-camera and place it in the OpenHAB fo
 contains the total openHAB folder, also the setup from habpanel
 
 10) Localisation:
+Folder containing everything from localisation
+
+11) Scripts:
+folder that contains certain scripts to log RFID info or change color of neoPixel when user enters the room 
