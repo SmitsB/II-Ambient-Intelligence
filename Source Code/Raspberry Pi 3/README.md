@@ -28,11 +28,18 @@ Building the source again can be done using the command:
 ```C
 gcc -o test test.c rpi_3_sensor_shield.h rpi_3_sensor_shield.c -l bcm2835 -lpython2.7 -lm -L/usr/lib/python2.7/confi -lpaho-mqtt3c
 ```
+
 7) RPI Sensors:
 This folder contains all the code to read the sensor values
 ```C
 test.c needs to be build when you want to use crontab
 test-save.c needs to be build if you want the script running the entire time
 ```
+
 8) Camera:
 Folder contains file to run to capture RPI-camera and place it in the OpenHAB folder.
+
+9) openHAB folder:
+contains the total openHAB folder, also the setup from habpanel
+
+10) Localisation:
