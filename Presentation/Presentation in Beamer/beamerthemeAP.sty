@@ -1,0 +1,68 @@
+% Copyright 2013 by Jeroen Doggen 
+% Based on 'Artesis beamer template' Copyright 2010 by Maarten Weyn
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+
+
+% -------------------------------------------------------------------------
+% introduce options
+\DeclareOptionBeamer{compress}{\beamer@compresstrue}
+
+\newif\ifbeamer@dark
+\beamer@darkfalse
+\DeclareOptionBeamer{dark}{\beamer@darktrue}
+
+\newif\ifbeamer@darktitle
+\beamer@darktitlefalse
+\DeclareOptionBeamer{darktitle}{\beamer@darktitletrue}
+
+\newif\ifbeamer@framenumber
+\beamer@framenumberfalse
+\DeclareOptionBeamer{framenumber}{\beamer@framenumbertrue}
+
+\newif\ifbeamer@APUA
+\DeclareOptionBeamer{APUA}{\beamer@APUAtrue}
+\beamer@APUAfalse
+
+
+\ProcessOptionsBeamer
+% -------------------------------------------------------------------------
+
+\mode<presentation>
+
+\useinnertheme{AP}
+\usefonttheme {AP}
+\usecolortheme{AP}
+\useoutertheme{AP}
+
+\mode
+<all>
+
+%% Remove sidebar from first slide
+%% Don't put the author in the sidebar
+%% Not sure if it is ``recommended'' to put this here... but it works as espected.
+
+\makeatletter
+  \setbeamertemplate{sidebar \beamer@sidebarside}
+  {
+  \ifthenelse{\c@framenumber=1}
+    % then
+    {}
+    % else
+    {
+    \beamer@tempdim=\beamer@sidebarwidth
+    \advance\beamer@tempdim by -6pt
+    \insertverticalnavigation{\beamer@sidebarwidth}
+    \vfill
+    \ifx\beamer@sidebarside\beamer@lefttext
+    \else
+      \usebeamercolor{normal text}
+      \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}
+      \vskip2pt%
+    \fi
+    }
+}
+\makeatother

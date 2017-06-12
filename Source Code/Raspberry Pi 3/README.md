@@ -39,11 +39,8 @@ test-save.c needs to be build if you want the script running the entire time
 8) Camera:
 Folder contains file to run to capture RPI-camera and place it in the OpenHAB folder.
 
-9) openHAB folder:
-contains the total openHAB folder, also the setup from habpanel
-
-10) Localisation:
+9) Localisation:
 Folder containing everything from localisation
 
-11) Scripts:
-folder that contains certain scripts to log RFID info or change color of neoPixel when user enters the room 
+10) Scripts:
+folder that contains certain scripts to log RFID info or change color of neoPixel when user enters the room, also script that starts the DASH7 listener
