@@ -14,12 +14,13 @@ Copy our files to your machine, you'll need to change the path in some scripts t
 
 5) Setup cron
 setup a cron task to start the camera script and the sensor script using the files from autoLaunch
-(sensor script can be called every minute or started once, depending on your preferences)
+(sensor script can be called every 30 seconds or started once, depending on your preferences [see 7)])
 
 ```bash
 @reboot sh /home/pi/autoLaunch/launchCameraScript.sh
 @reboot sh /home/pi/autoLaunch/launchSensorScript.sh
 */1 * * * * /home/pi/autoLaunch/launchSensorScript.sh
+*/1 * * * * ( sleep(30) ; /home/pi/autoLaunch/launchSensorScript.sh)
 ```
 
 6) Rebuild project:
@@ -27,3 +28,11 @@ Building the source again can be done using the command:
 ```C
 gcc -o test test.c rpi_3_sensor_shield.h rpi_3_sensor_shield.c -l bcm2835 -lpython2.7 -lm -L/usr/lib/python2.7/confi -lpaho-mqtt3c
 ```
+7) RPI Sensors:
+This folder contains all the code to read the sensor values
+```C
+test.c needs to be build when you want to use crontab
+test-save.c needs to be build if you want the script running the entire time
+```
+8) Camera:
+Folder contains file to run to capture RPI-camera and place it in the OpenHAB folder.
