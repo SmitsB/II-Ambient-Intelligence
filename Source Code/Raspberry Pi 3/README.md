@@ -1,5 +1,7 @@
 # Installation process for the Raspberry Pi 3
 
+##test
+
 1) Install OpenHAB 2:
 follow the instructions on the website: http://docs.openhab.org/installation/linux.html
 
