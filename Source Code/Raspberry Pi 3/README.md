@@ -32,8 +32,8 @@ gcc -o test test.c rpi_3_sensor_shield.h rpi_3_sensor_shield.c -l bcm2835 -lpyth
 7) RPI Sensors:
 This folder contains all the code to read the sensor values
 ```C
-test.c needs to be build when you want to use crontab
-test-save.c needs to be build if you want the script running the entire time
+test.c needs to be built when you want to use crontab
+test-save.c needs to be built if you want the script running the entire time
 ```
 
 8) Camera:
