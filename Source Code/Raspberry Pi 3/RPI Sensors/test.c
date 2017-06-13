@@ -173,7 +173,7 @@ void main() {
 
 		FILE* file_1 = fopen("showVal.py", "r");
 	        PyRun_File(file_1, "sudo showVal.py", Py_file_input, main_dict, main_dict);
-
+		fclose(file_1);
 //	}
 //	FILE* file_2 = fopen("stopcolors.py","r");
 //	PyRun_File(file_2, "sudo stopcolors.py", Py_file_input, main_dict, main_dict);
