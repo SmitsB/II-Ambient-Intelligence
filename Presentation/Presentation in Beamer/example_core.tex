@@ -23,16 +23,134 @@
 \section{Localisatie}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsection{Fingerprinting D7}
 \begin{frame} 
 \frametitle{Localisatie}
-  \begin{itemize}
-  \item Text
-  \item More text
-  \item More text again
-  \end{itemize}
+\begin{itemize}
+\item Fingerprinting Dash7
+	\begin{center}
+  		\includegraphics[width=\textwidth]{images/Flowchart.png}
+	\end{center}
+\end{itemize}
 \end{frame}
 
-\note{Uitleg van Frederik, Dash7 localisatie en magnetometer}
+\note{\begin{itemize}
+\item Mobiele node stuurt constant (ongeveer om de 0,5 seconden) berichten die de gateways, verspreid over deze verdieping, ontvangen.
+\item Informatie van het transmissiesignaal, zoals de link-budget en het tijdstip worden dan door een server van de UA gepublished via MQTT.
+\item Op de RaspberryPi loopt dan een script die deze data van MQTT uitleest. Het script haalt 10 berichten via MQTT binnen per finger id (plaats)
+\item Vervolgens wordt deze data gefilterd per gateway. Per elke gateway wordt dan van de ontvangen data de mediaan genomen.
+\item Dit wordt per finger id 6 keer herhaald zodat er per locatie 6 querries in de database worden opgeslagen.
+\end{itemize}}
+
+\begin{frame} 
+\frametitle{Localisatie}
+\begin{itemize}
+\item Fingerprinting Dash7
+	\begin{center}
+  		\includegraphics[width=.8\textwidth]{images/V315fingerprint.png}
+	\end{center}
+\end{itemize}
+\end{frame}
+
+\note{\begin{itemize}
+\item Dit is een afbeelding om te tonen hoe de data met DASH7 werd gemapt (het gaat hier over V315).
+\item De ruimte is in 4 blokken opgedeeld.
+\item Elk blok is opgedeeld in 16 fingers, even ver van elkaar verspreid. Voor elke finger werden er 6 querries in de database opgeslagen zoals eerder vermeld.
+\end{itemize}}
+
+\subsection{Dash7}
+\begin{frame} 
+\frametitle{Localisatie}
+\begin{itemize}
+\item Dash7
+	\begin{center}
+  		\includegraphics[width=\textwidth]{images/Flowchart3.png}
+	\end{center}
+\end{itemize}
+\end{frame}
+
+\note{\begin{itemize}
+\item De mobiele node stuurt constant DASH7 berichten.
+\item De gateways sturen transmissie gegevens door naar een server van de UA die deze data published via MQTT.
+\item De RaspberryPi leest deze data uit en past hierop het kNN-algoritme toe voor fingerprinting.
+\item De uitkomst (locatie) wordt dan door de RaspberryPi gepublished via MQTT zodat dit kan uitgelezen worden op openHAB
+\end{itemize}}
+
+\begin{frame} 
+\frametitle{Localisatie}
+\begin{itemize}
+\item Dash7
+	\begin{center}
+  		\includegraphics[width=.7\textwidth]{images/GraphicDASH7.PNG}
+	\end{center}
+\end{itemize}
+\end{frame}
+
+\note{\begin{itemize}
+\item Dit is een grafiek die de data-link waardes weergeeft op een grafiek.
+\item Deze afbeelding zou normaal 6-dimentionaal moeten zijn omdat er 6 gateways zijn maar omdat dit niet visueel mogelijk was hebben we gekozen om het 3-dimentionaal weer te geven met de 3 belangrijkste gateways.
+\end{itemize}}
+
+\subsection{Fingerprinting MAG}
+\begin{frame} 
+\frametitle{Localisatie}
+\begin{itemize}
+\item Fingerprinting Magnetometer
+	\begin{center}
+  		\includegraphics[width=\textwidth]{images/Flowchart2.png}
+	\end{center}
+\end{itemize}
+\end{frame}
+
+\note{\begin{itemize}
+\item Mobiele node stuurt constant berichten via DASH7 met data in van de magneto meter, accelerometer en barometer.
+\item Op de RaspberryPi loopt een script die deze data via DASH7 ontvangt.
+\item Per finger id (plaats) worden er 4 querries in de database gezet.
+\end{itemize}}
+
+\subsection{Magnetometer}
+\begin{frame} 
+\frametitle{Localisatie}
+\begin{itemize}
+\item Magnetometer
+	\begin{center}
+  		\includegraphics[width=\textwidth]{images/Flowchart4.png}
+	\end{center}
+\end{itemize}
+\end{frame}
+
+\note{\begin{itemize}
+\item Mobiele node stuurt constant berichten via DASH7 met data in van de magneto meter, accelerometer en barometer.
+\item Op de RaspberryPi loopt een script die deze data via DASH7 ontvangt.
+\item Op deze data wordt het kNN-algoritme toegepast voor fingerprinting.
+\item De uitkomst (locatie) wordt dan door de RaspberryPi gepublished via MQTT zodat dit kan uitgelezen worden op openHAB.
+\end{itemize}}
+
+\subsection{kNN-Algoritme}
+\begin{frame} 
+\frametitle{kNN-Algoritme}
+\begin{itemize}
+\item Dash7
+	\begin{itemize}
+	\item k = 7
+	\end{itemize}
+\item Magnetometer
+	\begin{itemize}
+	\item k = 5
+	\end{itemize}
+\item Distance metric
+	\begin{itemize}
+	\item Euclidean distance
+	\item Manhattan distance
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\note{\begin{itemize}
+\item Voor DASH7 lokalisatie wordt k=7 gebruikt
+\item Voor Magnetometer lokalisatie wordt k=5 gebruikt
+\item Als distance metric wordt Manhattan distance gebruikt omdat deze nauwkeuriger is dan Euclidean distance voor meerdere gateways.
+\end{itemize}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Gateway}
@@ -44,7 +162,9 @@
 \frametitle{Gateway}
   \begin{itemize}
   \item Sensoren \\
-  Voeg een image toe van PCB me Aanduiding
+  	\begin{center}
+  		\includegraphics[width=.4\textwidth]{images/RPISensors.jpg}
+	\end{center}
   \pause
   \note{\begin{itemize}
 		\item CO2 (CCS811): Maakt gebruik van de BCM2835-library, ook gebruikt voor de eerste taken rond de STM-bordjes
@@ -93,6 +213,30 @@
 \item Als er iemand binnenkomt, nemen de leds een preference color aan a.d.h.v. de id van RFID chip. De kleur word geoverride bij de volgende temperatuur/co2-meting.
 \end{itemize}}
 
+\subsection{Extra's}
+\begin{frame} 
+\frametitle{Gateway}
+  \begin{itemize}
+  \item Camera \\
+  \begin{center}
+  		\includegraphics[width=.4\textwidth]{images/piCam.jpg}
+	\end{center}
+  \item Scripts
+  \end{itemize}
+\end{frame}
+
+\note{\begin{itemize}
+\item Camera script neemt foto en plaats dit in openhab folder
+\item Extra script om RFID inlog te loggen, aangeroepen bij aankomst van dash7 bericht
+\item Crontab
+	\begin{enumerate}
+	\item start camera bij startup
+	\item start sensorlezing RPI bij startup
+	\item elke 30sec sensorlezing
+	\item gegevens van crontab worden ook weggeschreven in log
+	\end{enumerate}
+\end{itemize}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{openHAB}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,24 +244,33 @@
 \begin{frame} 
 \frametitle{openHAB}
   \begin{itemize}
-  \item Text
-  \item More text
-  \item More text again
+  \item Basic UI \\
+  \begin{center}
+  		\includegraphics[width=.8\textwidth]{images/basicUI.png}
+	\end{center}
+	\item HabPanel
   \end{itemize}
 \end{frame}
 
-\note{Uitleg van Bernd, implementatie in openHAB, tegelijk met demo mss}
+\note{\begin{itemize}
+\item Gestart met Basic UI omdat het makkelijker is om items uit te lezen.
+\item Overgeschakeld naar HabPanel voor presentatie
+\item Custom widgets aangemaakt in html gebruik makend van bootstrap
+\item Cusom widgets voor RPI, Mobile node sensoren
+\item Custom widget voor Live Weer updates
+\item Basic widgets voor afbeeldingen en tekstbestanden
+\end{itemize}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Demo}
+\section{Future Work}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame} 
-\frametitle{Demo}
+\frametitle{Future Work}
   \begin{itemize}
-  \item Text
-  \item More text
-  \item More text again
+  \item Alexa is ge\"{i}nstalleerd, instellen met OpenHAB
+  \item Magnetometer localisatie
+  \item Localisatie node mee op mobiele node plaatsen
   \end{itemize}
 \end{frame}
 

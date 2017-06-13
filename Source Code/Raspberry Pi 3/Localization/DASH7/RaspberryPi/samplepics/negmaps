@@ -1,0 +1,6 @@
+#!/bin/bash
+for file in *.png
+do
+  convert "$file" -level 25%,75%  tempneg.png
+  convert tempneg.png -negate "$file"
+done

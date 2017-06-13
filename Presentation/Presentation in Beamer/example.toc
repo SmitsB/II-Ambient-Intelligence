@@ -1,8 +1,14 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Mobiele Node}{2}{0}{1}
 \beamer@sectionintoc {2}{Localisatie}{3}{0}{2}
-\beamer@sectionintoc {3}{Gateway}{4}{0}{3}
-\beamer@subsectionintoc {3}{1}{Sensoren}{4}{0}{3}
-\beamer@subsectionintoc {3}{2}{LED Visualisatie}{6}{0}{3}
-\beamer@sectionintoc {4}{openHAB}{7}{0}{4}
-\beamer@sectionintoc {5}{Demo}{8}{0}{5}
+\beamer@subsectionintoc {2}{1}{Fingerprinting D7}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{Dash7}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Fingerprinting MAG}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{Magnetometer}{8}{0}{2}
+\beamer@subsectionintoc {2}{5}{kNN-Algoritme}{9}{0}{2}
+\beamer@sectionintoc {3}{Gateway}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sensoren}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{LED Visualisatie}{12}{0}{3}
+\beamer@subsectionintoc {3}{3}{Extra's}{13}{0}{3}
+\beamer@sectionintoc {4}{openHAB}{14}{0}{4}
+\beamer@sectionintoc {5}{Future Work}{15}{0}{5}
