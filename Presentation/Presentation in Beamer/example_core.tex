@@ -210,7 +210,8 @@
 \note{\begin{itemize}
 \item LEDs worden aangestuurd via een python script. Dit script wordt aangeroepen via het algemeen sensorscript, geschreven in C. 
 \item Een script leest temperatuur/CO2 waarden uit, steekt ze in een variabele van Python en runt het script. De kleur geeft de luchtkwaliteit weer (Groen = goed, rood = slecht), het aantal ledjes geeft de temperatuur weer.
-\item Als er iemand binnenkomt, nemen de leds een preference color aan a.d.h.v. de id van RFID chip. De kleur word geoverride bij de volgende temperatuur/co2-meting.
+\item CO\textsubscript{2}: 400-1400ppm en Temperatuur: 19-35 graden
+\item Als er iemand binnenkomt, nemen de leds een preference color aan a.d.h.v. de id van RFID chip. De kleur word geoverride bij de volgende temperatuur/CO2-meting.
 \end{itemize}}
 
 \subsection{Extra's}
@@ -227,13 +228,15 @@
 
 \note{\begin{itemize}
 \item Camera script neemt foto en plaats dit in openhab folder
-\item Extra script om RFID inlog te loggen, aangeroepen bij aankomst van dash7 bericht
+\item Extra script om RFID inlog/presence te loggen, aangeroepen bij aankomst van dash7 bericht
 \item Crontab
 	\begin{enumerate}
 	\item start camera bij startup
 	\item start sensorlezing RPI bij startup
 	\item elke 30sec sensorlezing
 	\item gegevens van crontab worden ook weggeschreven in log
+	\item Dash7 localisatie starten
+	\item Dash7 module om gegevens van mobile node te krijgen
 	\end{enumerate}
 \end{itemize}}
 

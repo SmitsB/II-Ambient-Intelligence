@@ -1,0 +1,32 @@
+sitemap team4 label="Team 4" {
+	Frame label="Date" {
+        	Text item=Date2
+}
+
+	Frame label="Raspberry Pi" {
+		Text item=piTemp valuecolor=[>25="orange",>30="red",<=25="green"]
+		Text item=piHumidity valuecolor=[>30="orange",>60="red",<=30="green"]
+	        Text item=piAirquality valuecolor=[>=1000="orange",>3000="red",<1000="green"]
+		Text item=piPressure valuecolor=[>103="orange",>115="red",<=103="green"]
+}
+
+	Frame label="Mobile Node" {
+        	Image url="http://143.129.37.81:8080/static/pic.png" refresh=5
+}
+
+	Text label="Charts Raspberry Pi Sensors" {
+		Frame label="Hourly Chart" {
+                	Chart item=rpiSensors period=h refresh=300
+		}
+		Frame label="Dayly Chart" {
+                        Chart item=rpiSensors period=D refresh=600
+                }
+		Frame label="Weekly Chart" {
+                        Chart item=rpiSensors period=W refresh=900
+                }
+}
+
+	Frame label="Camera Raspberry Pi" {
+		Image url="http://143.129.37.81:8080/static/picture.jpg" refresh=5
+}
+}

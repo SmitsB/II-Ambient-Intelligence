@@ -7,14 +7,11 @@ source: http://teltonika.lt/main/wp-content/uploads/2016/10/What-IEEE-thinks-abo
 This git will be a storage for the final portfolio of the course.
 The different parts in this git:
 
-1) Design of Project:
-Basic design of the entire project.
-
-2) Source Code:
+1) Source Code:
 All the final code running on both the STM-boards as on the Raspberry Pi 3.
 
-3) Powerpoints:
+2) Powerpoints:
 Small presentation of the project, details on the how everything was implemented will be available here.
 
-4) Datasheets:
+3) Datasheets:
 Used Datasheets from all the different sensors on both RPI3 and STM-Boards.

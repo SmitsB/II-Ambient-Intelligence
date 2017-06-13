@@ -1,0 +1,4 @@
+Number presence "[%s]"  {mqtt="<[myBroker:sensors/uidD7/presence:state:default"}
+Switch presenceState
+Number badge "[%s]"  {mqtt="<[myBroker:sensors/uidD7/badge:state:default]"}
+

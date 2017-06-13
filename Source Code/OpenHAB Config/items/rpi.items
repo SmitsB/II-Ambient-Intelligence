@@ -1,0 +1,17 @@
+Group rpiSensors "RPI Chart"
+Group Weather "Weather"
+
+DateTime Date2 "Date and time [%1$tA, %1$td.%1$tm.%1$tY %1$tT]" <calendar> { channel="ntp:ntp:rpi:dateTime" }
+
+Number piTemp "Temperature[%.1f °C]"  <temperature> (rpiSensors) {mqtt="<[myBroker:rpi/temperature:state:default]"}
+Number piHumidity "Humidity [%.1f %%]" <humidity> (rpiSensors) {mqtt="<[myBroker:rpi/humidity:state:default]"}
+Number piAirquality "Environment [%.1f PPM]" <carbondioxide> (rpiSensors) {mqtt="<[myBroker:rpi/airquality:state:default]"}
+Number piPressure "Pressure [%.1f kPa]" <line-incline> {mqtt="<[myBroker:rpi/pressure:state:default]"}
+
+String  Weather_Condition   "Weather [%s]" <fog> (Weather) {weather="locationId=Home, type=condition, property=commonId"}
+String  Weather_Formatted_Condition   "Weather [MAP(weather_en.map):%s]" <fog> (Weather) {weather="locationId=Home, type=condition, property=commonId"}
+Number  Weather_Temp        "Temperature [%.2f °C]"     <temperature>   (Weather) {weather="locationId=Home, type=temperature, property=feel"}
+
+Number stmPressure "Pressure [%.1f kPa]" <line-incline> {mqtt="<[myBroker:stm/pressure:state:default]"}
+Number stmTemperature "Temperature[%.1f °C]" <temperature> {mqtt="<[myBroker:stm/temperature:state:default]"}
+String stmLocal "Room [%s]" {mqtt="<[myBroker:/rpi/localization:state:default]"}

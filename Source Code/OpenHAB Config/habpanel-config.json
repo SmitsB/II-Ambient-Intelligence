@@ -1,0 +1,219 @@
+[
+    {
+        "id": "Team 4",
+        "name": "Team 4",
+        "widgets": [
+            {
+                "name": "Antwerp",
+                "sizeX": 4,
+                "sizeY": 2,
+                "type": "template",
+                "customwidget": "current-weather",
+                "row": 0,
+                "col": 0,
+                "config": {
+                    "weather_condition": "Weather_Condition",
+                    "formatted_weather_condition": "Weather_Formatted_Condition",
+                    "temperature": "Weather_Temp"
+                },
+                "dontwrap": false,
+                "nobackground": true,
+                "$$hashKey": "object:23"
+            },
+            {
+                "name": "RPI3 Text",
+                "sizeX": 4,
+                "sizeY": 1,
+                "type": "template",
+                "customwidget": "Raspberry Pi Text",
+                "row": 2,
+                "col": 6,
+                "dontwrap": false,
+                "nobackground": true,
+                "config": {},
+                "$$hashKey": "object:24"
+            },
+            {
+                "name": "Mobile Node Text",
+                "sizeX": 4,
+                "sizeY": 1,
+                "type": "template",
+                "customwidget": "Mobile Node Text",
+                "row": 2,
+                "col": 0,
+                "nobackground": true,
+                "config": {},
+                "dontwrap": false,
+                "$$hashKey": "object:25"
+            },
+            {
+                "name": "RFID Info",
+                "sizeX": 3,
+                "sizeY": 1,
+                "type": "template",
+                "customwidget": "RFID Text",
+                "row": 0,
+                "col": 6,
+                "dontwrap": false,
+                "nobackground": true,
+                "config": {},
+                "$$hashKey": "object:26"
+            },
+            {
+                "name": "Camera",
+                "sizeX": 4,
+                "sizeY": 3,
+                "item": null,
+                "type": "image",
+                "row": 3,
+                "col": 6,
+                "url": "http://143.129.37.81:8080/static/picture.jpg",
+                "refresh": 3,
+                "$$hashKey": "object:27"
+            },
+            {
+                "name": "RPI Chart",
+                "sizeX": 5,
+                "sizeY": 4,
+                "item": null,
+                "type": "chart",
+                "row": 6,
+                "col": 6,
+                "charttype": "interactive",
+                "service": "rrd4j",
+                "period": "h",
+                "axis": {
+                    "y": {
+                        "min": 350,
+                        "max": 700,
+                        "ticks": 10
+                    },
+                    "y2": {
+                        "enabled": true,
+                        "min": 15,
+                        "includezero": true,
+                        "max": 35,
+                        "ticks": 5
+                    }
+                },
+                "series": [
+                    {
+                        "axis": "y2",
+                        "display_line": true,
+                        "display_area": true,
+                        "item": "piTemp",
+                        "color": "#FF3300",
+                        "name": "Temperature"
+                    },
+                    {
+                        "axis": "y",
+                        "display_line": true,
+                        "display_area": true,
+                        "item": "piAirquality",
+                        "color": "#009933",
+                        "name": "CO2 Level"
+                    }
+                ],
+                "liveUpdates": {
+                    "enabled": true,
+                    "fillValues": false
+                },
+                "$$hashKey": "object:28"
+            },
+            {
+                "name": "Clock",
+                "sizeX": 1,
+                "sizeY": 1,
+                "item": null,
+                "type": "clock",
+                "row": 0,
+                "col": 9,
+                "mode": "Analog",
+                "analog_theme": "dark",
+                "font_size": "30",
+                "digital_format": "dd-MM-yyyy hh:mm:ss",
+                "$$hashKey": "object:29"
+            },
+            {
+                "name": "RFID Logger",
+                "sizeX": 2,
+                "sizeY": 1,
+                "type": "frame",
+                "row": 1,
+                "col": 8,
+                "url_source": "static",
+                "frameUrl": "http://143.129.37.81:8080/static/MQTTLogger.txt",
+                "frameless": true,
+                "hidelabel": false,
+                "background": "#FFFFFF",
+                "$$hashKey": "object:30"
+            },
+            {
+                "name": "Mobile Node Localisation",
+                "sizeX": 5,
+                "sizeY": 3,
+                "item": null,
+                "type": "image",
+                "row": 3,
+                "col": 0,
+                "url": "http://143.129.37.81:8080/static/pic.png",
+                "refresh": 2,
+                "$$hashKey": "object:31"
+            },
+            {
+                "name": "STM Chart",
+                "sizeX": 5,
+                "sizeY": 4,
+                "item": null,
+                "type": "chart",
+                "row": 6,
+                "col": 0,
+                "charttype": "interactive",
+                "service": "rrd4j",
+                "period": "h",
+                "axis": {
+                    "y": {
+                        "includezero": false
+                    }
+                },
+                "series": [
+                    {
+                        "axis": "y",
+                        "display_line": true,
+                        "display_area": true,
+                        "item": "stmTemperature",
+                        "name": "Temperature",
+                        "color": "#FF3300"
+                    }
+                ],
+                "liveUpdates": {
+                    "enabled": true,
+                    "fillValues": true
+                },
+                "$$hashKey": "object:32"
+            },
+            {
+                "name": "Presence Logger",
+                "sizeX": 2,
+                "sizeY": 1,
+                "type": "frame",
+                "row": 1,
+                "col": 6,
+                "url_source": "static",
+                "frameUrl": "http://143.129.37.81:8080/static/presenceLogger.txt",
+                "frameless": true,
+                "background": "#FFFFFF",
+                "$$hashKey": "object:33"
+            }
+        ],
+        "row": 0,
+        "col": 0,
+        "sizeY": 4,
+        "tile": {
+            "backdrop_iconset": "smarthome-set",
+            "backdrop_icon": "garage",
+            "backdrop_center": false
+        },
+        "$$hashKey": "object:19"
+    }
+]

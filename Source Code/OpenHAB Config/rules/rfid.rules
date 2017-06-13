@@ -1,0 +1,19 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+rule "Motion detected"
+when
+        Item presence received update or
+then
+        if(presenceState.state != ON){
+                presenceState.sendCommand(ON)
+                Thread::sleep(15000)    //wait 15 seconds
+                presenceState.sendCommand(OFF)
+        }
+        else{
+                presenceState.sendCommand(OFF)
+        }
+end
+
+

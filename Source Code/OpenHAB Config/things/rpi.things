@@ -1,0 +1,2 @@
+ntp:ntp:rpi [ hostname="nl.pool.ntp.org", refreshInterval=1, refreshNtp=30 ]
+
