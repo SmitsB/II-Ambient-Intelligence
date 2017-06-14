@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.29)  14 JUN 2017 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.29)  14 JUN 2017 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1268,17 +1268,11 @@ l.102 \end{frame}
 \openout4 = `example.vrb'.
 
  (./example.vrb
-<images/NFC16.png, id=359, 642.4pt x 105.39375pt>
-File: images/NFC16.png Graphic file (type png)
- <use images/NFC16.png>
-Package pdftex.def Info: images/NFC16.png used on input line 4.
-(pdftex.def)             Requested size: 126.96838pt x 20.8307pt.
-
-<images/NFC14.png, id=360, 2768.3425pt x 953.5625pt>
-File: images/NFC14.png Graphic file (type png)
- <use images/NFC14.png>
-Package pdftex.def Info: images/NFC14.png used on input line 5.
-(pdftex.def)             Requested size: 253.93678pt x 87.46109pt.
+<images/Mobile9.jpg, id=359, 321.2pt x 240.9pt>
+File: images/Mobile9.jpg Graphic file (type jpg)
+ <use images/Mobile9.jpg>
+Package pdftex.def Info: images/Mobile9.jpg used on input line 4.
+(pdftex.def)             Requested size: 253.93678pt x 190.45593pt.
 )
 [11
 
@@ -1287,24 +1281,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.111 \end{frame}
+l.110 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.10}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.111 \end{frame}
+l.110 \end{frame}
                  
 
  <./images/NFC13.jpg>]
 \openout4 = `example.vrb'.
 
  (./example.vrb
-<images/NFC15.png, id=387, 2198.2125pt x 1616.0375pt>
-File: images/NFC15.png Graphic file (type png)
- <use images/NFC15.png>
-Package pdftex.def Info: images/NFC15.png used on input line 4.
-(pdftex.def)             Requested size: 253.93678pt x 186.66647pt.
+<images/NFC16.png, id=386, 642.4pt x 105.39375pt>
+File: images/NFC16.png Graphic file (type png)
+ <use images/NFC16.png>
+Package pdftex.def Info: images/NFC16.png used on input line 4.
+(pdftex.def)             Requested size: 126.96838pt x 20.8307pt.
+
+<images/NFC14.png, id=387, 2768.3425pt x 953.5625pt>
+File: images/NFC14.png Graphic file (type png)
+ <use images/NFC14.png>
+Package pdftex.def Info: images/NFC14.png used on input line 5.
+(pdftex.def)             Requested size: 253.93678pt x 87.46109pt.
 )
 [12
 
@@ -1322,33 +1322,15 @@ ame{page.11}) has been already used, duplicate ignored
 l.119 \end{frame}
                  
 
- <./images/NFC16.png> <./images/NFC14.png>]
+ <./images/Mobile9.jpg>]
 \openout4 = `example.vrb'.
 
  (./example.vrb
-<images/mobile1.jpg, id=414, 722.7pt x 542.025pt>
-File: images/mobile1.jpg Graphic file (type jpg)
- <use images/mobile1.jpg>
-Package pdftex.def Info: images/mobile1.jpg used on input line 4.
-(pdftex.def)             Requested size: 101.57315pt x 76.17244pt.
-
-<images/mobile2.jpg, id=415, 722.481pt x 541.806pt>
-File: images/mobile2.jpg Graphic file (type jpg)
- <use images/mobile2.jpg>
-Package pdftex.def Info: images/mobile2.jpg used on input line 5.
-(pdftex.def)             Requested size: 101.57315pt x 76.16647pt.
-
-<images/mobile3.jpg, id=416, 722.481pt x 541.806pt>
-File: images/mobile3.jpg Graphic file (type jpg)
- <use images/mobile3.jpg>
-Package pdftex.def Info: images/mobile3.jpg used on input line 9.
-(pdftex.def)             Requested size: 101.57315pt x 76.16647pt.
-
-<images/mobile4.jpg, id=417, 722.7pt x 542.025pt>
-File: images/mobile4.jpg Graphic file (type jpg)
- <use images/mobile4.jpg>
-Package pdftex.def Info: images/mobile4.jpg used on input line 10.
-(pdftex.def)             Requested size: 101.57315pt x 76.17244pt.
+<images/NFC15.png, id=414, 2198.2125pt x 1616.0375pt>
+File: images/NFC15.png Graphic file (type png)
+ <use images/NFC15.png>
+Package pdftex.def Info: images/NFC15.png used on input line 4.
+(pdftex.def)             Requested size: 253.93678pt x 186.66647pt.
 )
 [13
 
@@ -1357,24 +1339,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.136 \end{frame}
+l.127 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.12}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.136 \end{frame}
+l.127 \end{frame}
                  
 
- <./images/NFC15.png>]
+ <./images/NFC16.png> <./images/NFC14.png>]
 \openout4 = `example.vrb'.
 
  (./example.vrb
-<images/mobile5.jpg, id=445, 722.481pt x 541.806pt>
-File: images/mobile5.jpg Graphic file (type jpg)
- <use images/mobile5.jpg>
-Package pdftex.def Info: images/mobile5.jpg used on input line 4.
-(pdftex.def)             Requested size: 253.93678pt x 190.42859pt.
+<images/mobile1.jpg, id=441, 722.7pt x 542.025pt>
+File: images/mobile1.jpg Graphic file (type jpg)
+ <use images/mobile1.jpg>
+Package pdftex.def Info: images/mobile1.jpg used on input line 4.
+(pdftex.def)             Requested size: 101.57315pt x 76.17244pt.
+
+<images/mobile2.jpg, id=442, 722.481pt x 541.806pt>
+File: images/mobile2.jpg Graphic file (type jpg)
+ <use images/mobile2.jpg>
+Package pdftex.def Info: images/mobile2.jpg used on input line 5.
+(pdftex.def)             Requested size: 101.57315pt x 76.16647pt.
+
+<images/mobile3.jpg, id=443, 722.481pt x 541.806pt>
+File: images/mobile3.jpg Graphic file (type jpg)
+ <use images/mobile3.jpg>
+Package pdftex.def Info: images/mobile3.jpg used on input line 9.
+(pdftex.def)             Requested size: 101.57315pt x 76.16647pt.
+
+<images/mobile4.jpg, id=444, 722.7pt x 542.025pt>
+File: images/mobile4.jpg Graphic file (type jpg)
+ <use images/mobile4.jpg>
+Package pdftex.def Info: images/mobile4.jpg used on input line 10.
+(pdftex.def)             Requested size: 101.57315pt x 76.17244pt.
 )
 [14
 
@@ -1392,18 +1392,17 @@ ame{page.13}) has been already used, duplicate ignored
 l.144 \end{frame}
                  
 
- <./images/mobile1.jpg> <./images/mobile2.jpg> <./images/mobile3.jpg> <./images
-/mobile4.jpg>]
+ <./images/NFC15.png>]
 \openout4 = `example.vrb'.
 
  (./example.vrb
-<images/mobile6.png, id=473, 743.77875pt x 382.42876pt>
-File: images/mobile6.png Graphic file (type png)
-
-<use images/mobile6.png>
-Package pdftex.def Info: images/mobile6.png used on input line 4.
-(pdftex.def)             Requested size: 253.93678pt x 130.56674pt.
-) [15
+<images/mobile5.jpg, id=473, 722.481pt x 541.806pt>
+File: images/mobile5.jpg Graphic file (type jpg)
+ <use images/mobile5.jpg>
+Package pdftex.def Info: images/mobile5.jpg used on input line 4.
+(pdftex.def)             Requested size: 253.93678pt x 190.42859pt.
+)
+[15
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
 ) has been already used, duplicate ignored
@@ -1419,67 +1418,49 @@ ame{page.14}) has been already used, duplicate ignored
 l.152 \end{frame}
                  
 
- <./images/mobile5.jpg>]
+ <./images/mobile1.jpg> <./images/mobile2.jpg> <./images/mobile3.jpg> <./images
+/mobile4.jpg>]
 \openout4 = `example.vrb'.
 
  (./example.vrb
-<images/Mobile7.jpg, id=500, 321.2pt x 240.9pt>
-File: images/Mobile7.jpg Graphic file (type jpg)
- <use images/Mobile7.jpg>
-Package pdftex.def Info: images/Mobile7.jpg used on input line 4.
-(pdftex.def)             Requested size: 101.57315pt x 76.17796pt.
+<images/mobile6.png, id=501, 743.77875pt x 382.42876pt>
+File: images/mobile6.png Graphic file (type png)
 
-<images/Mobile8.jpg, id=501, 321.2pt x 240.9pt>
-File: images/Mobile8.jpg Graphic file (type jpg)
- <use images/Mobile8.jpg>
-Package pdftex.def Info: images/Mobile8.jpg used on input line 5.
-(pdftex.def)             Requested size: 101.57315pt x 76.17796pt.
-)
-[16
+<use images/mobile6.png>
+Package pdftex.def Info: images/mobile6.png used on input line 4.
+(pdftex.def)             Requested size: 253.93678pt x 130.56674pt.
+) [16
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation15}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.161 \end{frame}
+l.160 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.15}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.161 \end{frame}
+l.160 \end{frame}
                  
 
- <./images/mobile6.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 177.
+ <./images/mobile5.jpg>]
+\openout4 = `example.vrb'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+ (./example.vrb
+<images/Mobile7.jpg, id=528, 321.2pt x 240.9pt>
+File: images/Mobile7.jpg Graphic file (type jpg)
+ <use images/Mobile7.jpg>
+Package pdftex.def Info: images/Mobile7.jpg used on input line 4.
+(pdftex.def)             Requested size: 101.57315pt x 76.17796pt.
+
+<images/Mobile8.jpg, id=529, 321.2pt x 240.9pt>
+File: images/Mobile8.jpg Graphic file (type jpg)
+ <use images/Mobile8.jpg>
+Package pdftex.def Info: images/Mobile8.jpg used on input line 5.
+(pdftex.def)             Requested size: 101.57315pt x 76.17796pt.
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 177.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 177.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-<images/Flowchart.png, id=529, 1168.365pt x 518.93875pt>
-File: images/Flowchart.png Graphic file (type png)
-
-<use images/Flowchart.png>
-Package pdftex.def Info: images/Flowchart.png used on input line 177.
-(pdftex.def)             Requested size: 253.93678pt x 112.78116pt.
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 177--177
- [] 
- []
-
 [17
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation16}
@@ -1487,33 +1468,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation16}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.177 \end{frame}
+l.169 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.16}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.177 \end{frame}
+l.169 \end{frame}
                  
 
- <./images/Mobile7.jpg> <./images/Mobile8.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 185
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 185.
+ <./images/mobile6.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 185.
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 185.
 
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 185.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 185.
 
-<images/V315fingerprint.png, id=561, 1438.37375pt x 1411.2725pt>
-File: images/V315fingerprint.png Graphic file (type png)
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<images/Flowchart.png, id=557, 1168.365pt x 518.93875pt>
+File: images/Flowchart.png Graphic file (type png)
 
-<use images/V315fingerprint.png>
-Package pdftex.def Info: images/V315fingerprint.png used on input line 195.
-(pdftex.def)             Requested size: 203.15019pt x 199.32108pt.
+<use images/Flowchart.png>
+Package pdftex.def Info: images/Flowchart.png used on input line 185.
+(pdftex.def)             Requested size: 253.93678pt x 112.78116pt.
 
-Overfull \vbox (6.4699pt too high) detected at line 195
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 185--185
+ [] 
  []
 
 [18
@@ -1523,25 +1513,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation17}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.195 \end{frame}
+l.185 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.17}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.195 \end{frame}
+l.185 \end{frame}
                  
 
- <./images/Flowchart.png>]
-<images/Flowchart3.png, id=596, 1023.825pt x 293.095pt>
-File: images/Flowchart3.png Graphic file (type png)
+ <./images/Mobile7.jpg> <./images/Mobile8.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 193
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 193.
 
-<use images/Flowchart3.png>
-Package pdftex.def Info: images/Flowchart3.png used on input line 212.
-(pdftex.def)             Requested size: 253.93678pt x 72.69217pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 212--212
- [] 
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 193.
+
+<images/V315fingerprint.png, id=589, 1438.37375pt x 1411.2725pt>
+File: images/V315fingerprint.png Graphic file (type png)
+
+<use images/V315fingerprint.png>
+Package pdftex.def Info: images/V315fingerprint.png used on input line 203.
+(pdftex.def)             Requested size: 203.15019pt x 199.32108pt.
+
+Overfull \vbox (6.4699pt too high) detected at line 203
  []
 
 [19
@@ -1551,75 +1549,75 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation18}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.212 \end{frame}
+l.203 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.18}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.212 \end{frame}
+l.203 \end{frame}
                  
 
- <./images/V315fingerprint.png>]
-<images/GraphicDASH7.PNG, id=629, 729.47531pt x 657.2053pt>
-File: images/GraphicDASH7.PNG Graphic file (type png)
+ <./images/Flowchart.png>]
+<images/Flowchart3.png, id=625, 1023.825pt x 293.095pt>
+File: images/Flowchart3.png Graphic file (type png)
 
-<use images/GraphicDASH7.PNG>
-Package pdftex.def Info: images/GraphicDASH7.PNG used on input line 229.
-(pdftex.def)             Requested size: 177.75496pt x 160.13924pt.
- [20
+<use images/Flowchart3.png>
+Package pdftex.def Info: images/Flowchart3.png used on input line 220.
+(pdftex.def)             Requested size: 253.93678pt x 72.69217pt.
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 220--220
+ [] 
+ []
+
+[20
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation19}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.229 \end{frame}
+l.220 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.19}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.229 \end{frame}
+l.220 \end{frame}
                  
 
- <./images/Flowchart3.png>]
-<images/Flowchart2.png, id=662, 848.16875pt x 384.43625pt>
-File: images/Flowchart2.png Graphic file (type png)
+ <./images/V315fingerprint.png>]
+<images/GraphicDASH7.PNG, id=658, 729.47531pt x 657.2053pt>
+File: images/GraphicDASH7.PNG Graphic file (type png)
 
-<use images/Flowchart2.png>
-Package pdftex.def Info: images/Flowchart2.png used on input line 245.
-(pdftex.def)             Requested size: 253.93678pt x 115.09712pt.
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 245--245
- [] 
- []
-
-[21
+<use images/GraphicDASH7.PNG>
+Package pdftex.def Info: images/GraphicDASH7.PNG used on input line 237.
+(pdftex.def)             Requested size: 177.75496pt x 160.13924pt.
+ [21
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation20}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.245 \end{frame}
+l.237 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.20}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.245 \end{frame}
+l.237 \end{frame}
                  
 
- <./images/GraphicDASH7.PNG>]
-<images/Flowchart4.png, id=695, 749.80125pt x 265.99374pt>
-File: images/Flowchart4.png Graphic file (type png)
+ <./images/Flowchart3.png>]
+<images/Flowchart2.png, id=692, 848.16875pt x 384.43625pt>
+File: images/Flowchart2.png Graphic file (type png)
 
-<use images/Flowchart4.png>
-Package pdftex.def Info: images/Flowchart4.png used on input line 262.
-(pdftex.def)             Requested size: 253.93678pt x 90.08356pt.
+<use images/Flowchart2.png>
+Package pdftex.def Info: images/Flowchart2.png used on input line 253.
+(pdftex.def)             Requested size: 253.93678pt x 115.09712pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 262--262
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 253--253
  [] 
  []
 
@@ -1630,67 +1628,71 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation21}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.262 \end{frame}
+l.253 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.21}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.262 \end{frame}
+l.253 \end{frame}
                  
 
+ <./images/GraphicDASH7.PNG>]
+<images/Flowchart4.png, id=725, 749.80125pt x 265.99374pt>
+File: images/Flowchart4.png Graphic file (type png)
 
+<use images/Flowchart4.png>
+Package pdftex.def Info: images/Flowchart4.png used on input line 270.
+(pdftex.def)             Requested size: 253.93678pt x 90.08356pt.
 
-pdfTeX warning: pdflatex: pop empty color page stack 0
- <./images/Flowchart2.png>] [23
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 270--270
+ [] 
+ []
+
+[23
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation22}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.289 \end{frame}
+l.270 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.22}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.289 \end{frame}
+l.270 \end{frame}
                  
 
 
 
 pdfTeX warning: pdflatex: pop empty color page stack 0
- <./images/Flowchart4.png>]
-<images/RPISensors.jpg, id=759, 2262.4525pt x 2714.14pt>
-File: images/RPISensors.jpg Graphic file (type jpg)
-
-<use images/RPISensors.jpg>
-Package pdftex.def Info: images/RPISensors.jpg used on input line 326.
-(pdftex.def)             Requested size: 101.57315pt x 121.84113pt.
- [24
+ <./images/Flowchart2.png>] [24
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation23}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.326 \end{frame}
+l.297 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.23}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.326 \end{frame}
+l.297 \end{frame}
                  
 
 
 
 pdfTeX warning: pdflatex: pop empty color page stack 0
-]
+ <./images/Flowchart4.png>]
+<images/RPISensors.jpg, id=790, 2262.4525pt x 2714.14pt>
 File: images/RPISensors.jpg Graphic file (type jpg)
- <use images/RPISensors.jpg>
-Package pdftex.def Info: images/RPISensors.jpg used on input line 326.
+
+<use images/RPISensors.jpg>
+Package pdftex.def Info: images/RPISensors.jpg used on input line 334.
 (pdftex.def)             Requested size: 101.57315pt x 121.84113pt.
  [25
 
@@ -1699,57 +1701,56 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation24}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.326 \end{frame}
+l.334 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.24}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.326 \end{frame}
+l.334 \end{frame}
                  
 
- <./images/RPISensors.jpg>]
-<images/LEDlow.png, id=816, 555.07375pt x 544.0325pt>
-File: images/LEDlow.png Graphic file (type png)
- <use images/LEDlow.png>
-Package pdftex.def Info: images/LEDlow.png used on input line 350.
-(pdftex.def)             Requested size: 126.96838pt x 124.43584pt.
 
-<images/LEDhigh.png, id=817, 561.09625pt x 534.99875pt>
-File: images/LEDhigh.png Graphic file (type png)
 
-<use images/LEDhigh.png>
-Package pdftex.def Info: images/LEDhigh.png used on input line 350.
-(pdftex.def)             Requested size: 126.96838pt x 121.05524pt.
-
-Overfull \hbox (21.90004pt too wide) in paragraph at lines 350--350
- [][] 
- []
-
-[26
+pdfTeX warning: pdflatex: pop empty color page stack 0
+]
+File: images/RPISensors.jpg Graphic file (type jpg)
+ <use images/RPISensors.jpg>
+Package pdftex.def Info: images/RPISensors.jpg used on input line 334.
+(pdftex.def)             Requested size: 101.57315pt x 121.84113pt.
+ [26
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation25}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.350 \end{frame}
+l.334 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.25}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.350 \end{frame}
+l.334 \end{frame}
                  
 
+ <./images/RPISensors.jpg>]
+<images/LEDlow.png, id=852, 555.07375pt x 544.0325pt>
+File: images/LEDlow.png Graphic file (type png)
+ <use images/LEDlow.png>
+Package pdftex.def Info: images/LEDlow.png used on input line 358.
+(pdftex.def)             Requested size: 126.96838pt x 124.43584pt.
 
+<images/LEDhigh.png, id=853, 561.09625pt x 534.99875pt>
+File: images/LEDhigh.png Graphic file (type png)
 
-pdfTeX warning: pdflatex: pop empty color page stack 0
-] <images/piCam.jpg, id=851, 1204.5pt x 1095.09125pt>
-File: images/piCam.jpg Graphic file (type jpg)
- <use images/piCam.jpg>
-Package pdftex.def Info: images/piCam.jpg used on input line 369.
-(pdftex.def)             Requested size: 101.57315pt x 92.33794pt.
+<use images/LEDhigh.png>
+Package pdftex.def Info: images/LEDhigh.png used on input line 358.
+(pdftex.def)             Requested size: 126.96838pt x 121.05524pt.
+
+Overfull \hbox (21.90004pt too wide) in paragraph at lines 358--358
+ [][] 
+ []
 
 [27
 
@@ -1758,58 +1759,83 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation26}
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.369 \end{frame}
+l.358 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.26}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.369 \end{frame}
+l.358 \end{frame}
                  
 
 
 
 pdfTeX warning: pdflatex: pop empty color page stack 0
- <./images/LEDlow.png> <./images/LEDhigh.png>]
-<images/basicUI.png, id=882, 1091.07625pt x 834.11626pt>
-File: images/basicUI.png Graphic file (type png)
+] <images/piCam.jpg, id=884, 1204.5pt x 1095.09125pt>
+File: images/piCam.jpg Graphic file (type jpg)
+ <use images/piCam.jpg>
+Package pdftex.def Info: images/piCam.jpg used on input line 377.
+(pdftex.def)             Requested size: 101.57315pt x 92.33794pt.
 
-<use images/basicUI.png>
-Package pdftex.def Info: images/basicUI.png used on input line 398.
-(pdftex.def)             Requested size: 203.15019pt x 155.30183pt.
- [28
+[28
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation27}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.398 \end{frame}
+l.377 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.27}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.398 \end{frame}
+l.377 \end{frame}
                  
 
 
 
 pdfTeX warning: pdflatex: pop empty color page stack 0
- <./images/piCam.jpg>] [29
+ <./images/LEDlow.png> <./images/LEDhigh.png>]
+<images/basicUI.png, id=916, 1091.07625pt x 834.11626pt>
+File: images/basicUI.png Graphic file (type png)
+
+<use images/basicUI.png>
+Package pdftex.def Info: images/basicUI.png used on input line 406.
+(pdftex.def)             Requested size: 203.15019pt x 155.30183pt.
+ [29
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation28}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.420 \end{frame}
+l.406 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{page.28}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.420 \end{frame}
+l.406 \end{frame}
+                 
+
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+ <./images/piCam.jpg>] [30
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation29}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.428 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.29}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.428 \end{frame}
                  
 
 
@@ -1825,31 +1851,37 @@ pdfTeX warning: pdflatex: pop empty color page stack 0
 \tf@snm=\write9
 \openout9 = `example.snm'.
 
- [30
+ [31
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation29}
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation30}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.423 \end{document}
+l.431 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
- (name{page.29}) has been already used, duplicate ignored
+ (name{page.30}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.423 \end{document}
+l.431 \end{document}
                     
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 423.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 423.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
  (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 423.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 423.
-Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: 8299BBAC5B80DD38EEAFC47C913F161F;893.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 431.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 431.
 
+
+Package rerunfilecheck Warning: File `example.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `example.out':
+(rerunfilecheck)             Before: 8299BBAC5B80DD38EEAFC47C913F161F;893
+(rerunfilecheck)             After:  8D7D4B9DD703EA8154131603D9835A6A;893.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1857,28 +1889,55 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 423.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
  ) ) 
 Here is how much of TeX's memory you used:
- 18915 strings out of 493029
- 361182 string characters out of 6136234
+ 18933 strings out of 493029
+ 361462 string characters out of 6136234
  540008 words of memory out of 5000000
- 21858 multiletter control sequences out of 15000+600000
+ 21862 multiletter control sequences out of 15000+600000
  13154 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,68p,406b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on example.pdf (29 pages, 27691117 bytes).
+pdfTeX warning (dest): name{Outline0.4.3.27} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.2.26} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.1.24} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.5.23} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.4.22} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.3.21} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.2.19} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.1.17} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.2.13} has been referenced but does not e
+xist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam7.pfb>
+Output written on example.pdf (30 pages, 27734209 bytes).
 PDF statistics:
- 983 PDF objects out of 1000 (max. 8388607)
- 770 compressed objects within 8 object streams
- 75 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 804 compressed objects within 9 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

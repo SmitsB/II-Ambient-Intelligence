@@ -2,16 +2,16 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@sectionintoc {2}{External Nodes}{3}{0}{2}
 \beamer@subsectionintoc {2}{1}{NFC Node}{3}{0}{2}
-\beamer@subsectionintoc {2}{2}{Mobile Node}{13}{0}{2}
-\beamer@sectionintoc {3}{Localisation}{17}{0}{3}
-\beamer@subsectionintoc {3}{1}{Fingerprinting D7}{17}{0}{3}
-\beamer@subsectionintoc {3}{2}{Dash7}{19}{0}{3}
-\beamer@subsectionintoc {3}{3}{Fingerprinting MAG}{21}{0}{3}
-\beamer@subsectionintoc {3}{4}{Magnetometer}{22}{0}{3}
-\beamer@subsectionintoc {3}{5}{kNN-Algorithm}{23}{0}{3}
-\beamer@sectionintoc {4}{Gateway}{24}{0}{4}
-\beamer@subsectionintoc {4}{1}{Sensors}{24}{0}{4}
-\beamer@subsectionintoc {4}{2}{LED Visualisatie}{26}{0}{4}
-\beamer@subsectionintoc {4}{3}{Extra's}{27}{0}{4}
-\beamer@sectionintoc {5}{openHAB}{28}{0}{5}
-\beamer@sectionintoc {6}{Future Work}{29}{0}{6}
+\beamer@subsectionintoc {2}{2}{Mobile Node}{14}{0}{2}
+\beamer@sectionintoc {3}{Localisation}{18}{0}{3}
+\beamer@subsectionintoc {3}{1}{Fingerprinting D7}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Dash7}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{Fingerprinting MAG}{22}{0}{3}
+\beamer@subsectionintoc {3}{4}{Magnetometer}{23}{0}{3}
+\beamer@subsectionintoc {3}{5}{kNN-Algorithm}{24}{0}{3}
+\beamer@sectionintoc {4}{Gateway}{25}{0}{4}
+\beamer@subsectionintoc {4}{1}{Sensors}{25}{0}{4}
+\beamer@subsectionintoc {4}{2}{LED Visualisatie}{27}{0}{4}
+\beamer@subsectionintoc {4}{3}{Extra's}{28}{0}{4}
+\beamer@sectionintoc {5}{openHAB}{29}{0}{5}
+\beamer@sectionintoc {6}{Future Work}{30}{0}{6}
