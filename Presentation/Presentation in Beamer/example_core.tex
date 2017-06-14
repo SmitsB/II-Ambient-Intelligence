@@ -5,27 +5,168 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Mobiele Node}
+\section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[fragile]
-\frametitle{Mobiele Node} 
-\begin{itemize}
- \item Text
- \item More text
- \item More text again
-\end{itemize}
+\frametitle{Introduction} 
+ 	\begin{center}
+  		\includegraphics[width=\textwidth]{images/opbouw.png}
+	\end{center}
 \end{frame}
 
-\note{Uitleg van kwinten, ook uitleg van doorsturen via Dash7 (of als iemand anders dit moet doen)}
+\note{Toelichten hoe het systeem is opgebouwd, zeggen dat mobiele node en RFID Node uitgelegd wordt doo kwinten, de localisatie door frederic en gateway openhab door seb en bernd.}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Localisatie}
+\section{External Nodes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{NFC Node}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Eagle} 
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.4\textwidth]{images/eagle1.png}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/eagle2.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Hardware} 
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.4\textwidth]{images/NFC1.jpg}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/NFC2.jpg}}
+\end{figure}
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.4\textwidth]{images/NFC3.jpg}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/NFC4.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Combinatie} 
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{images/NFC5.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Software} 
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{images/NFC6.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Power Management} 
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.5\textwidth]{images/NFC7.png}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/NFC8.jpg}}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=.3\textwidth]{images/NFC9.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Power Management} 
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.5\textwidth]{images/NFC10.png}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/NFC11.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Power Management} 
+\begin{figure}
+  \centering
+	\includegraphics[width=\textwidth]{images/NFC12.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Power Management} 
+\begin{figure}
+  \centering
+	\includegraphics[width=\textwidth]{images/NFC13.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Power Management} 
+\begin{figure}
+  \centering
+	\includegraphics[width=\textwidth]{images/NFC14.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{NFC Node - Power Management} 
+\begin{figure}
+  \centering
+	\includegraphics[width=\textwidth]{images/NFC15.png}
+\end{figure}
+\end{frame}
+
+
+\subsection{Mobile Node}
+
+\begin{frame}[fragile]
+\frametitle{Mobile Node - Hardware} 
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.4\textwidth]{images/mobile1.jpg}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/mobile2.jpg}}
+\end{figure}
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.4\textwidth]{images/mobile3.jpg}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/mobile4.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Mobile Node - Combination} 
+\begin{figure}
+  \centering
+	\includegraphics[width=\textwidth]{images/mobile5.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Mobile Node - Software} 
+\begin{figure}
+  \centering
+	\includegraphics[width=\textwidth]{images/mobile6.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Mobile Node - Power Management} 
+\begin{figure}
+  \centering
+  \subfloat{\includegraphics[width=.4\textwidth]{images/Mobile7.jpg}}\qquad
+  \subfloat{\includegraphics[width=.4\textwidth]{images/Mobile8.jpg}}
+\end{figure}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Localisation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Fingerprinting D7}
 \begin{frame} 
-\frametitle{Localisatie}
+\frametitle{Localisation}
 \begin{itemize}
 \item Fingerprinting Dash7
 	\begin{center}
@@ -43,7 +184,7 @@
 \end{itemize}}
 
 \begin{frame} 
-\frametitle{Localisatie}
+\frametitle{Localisation}
 \begin{itemize}
 \item Fingerprinting Dash7
 	\begin{center}
@@ -60,7 +201,7 @@
 
 \subsection{Dash7}
 \begin{frame} 
-\frametitle{Localisatie}
+\frametitle{Localisation}
 \begin{itemize}
 \item Dash7
 	\begin{center}
@@ -77,7 +218,7 @@
 \end{itemize}}
 
 \begin{frame} 
-\frametitle{Localisatie}
+\frametitle{Localisation}
 \begin{itemize}
 \item Dash7
 	\begin{center}
@@ -126,9 +267,9 @@
 \item De uitkomst (locatie) wordt dan door de RaspberryPi gepublished via MQTT zodat dit kan uitgelezen worden op openHAB.
 \end{itemize}}
 
-\subsection{kNN-Algoritme}
+\subsection{kNN-Algorithm}
 \begin{frame} 
-\frametitle{kNN-Algoritme}
+\frametitle{kNN-Algorithm}
 \begin{itemize}
 \item Dash7
 	\begin{itemize}
@@ -156,12 +297,12 @@
 \section{Gateway}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Sensoren}
+\subsection{Sensors}
 
 \begin{frame} 
 \frametitle{Gateway}
   \begin{itemize}
-  \item Sensoren \\
+  \item Sensors \\
   	\begin{center}
   		\includegraphics[width=.4\textwidth]{images/RPISensors.jpg}
 	\end{center}
@@ -179,7 +320,7 @@
 				\item MAG3310, magnetometer ook op sensorbord maar niet ge\"{i}mplementeerd in project.
 			\end{enumerate}
 		\end{itemize}}
-	\item Sensorwaarden op MQTT topics
+	\item Sensorvalues published on MQTT topics
   \end{itemize}
 \end{frame}
 
@@ -195,10 +336,10 @@
 \begin{frame} 
 \frametitle{Gateway}
   \begin{itemize}
-  \item LED Visualisatie: \\
+  \item LED Visualisation: \\
   \begin{enumerate}
-  	\item Profielen
-  	\item CO\textsubscript{2} en Temperatuur Niveau
+  	\item Profiles
+  	\item CO\textsubscript{2} en Temperature Levels
   \end{enumerate}
   	\begin{center}
   		\includegraphics[width=.5\textwidth]{images/LEDlow.png}
@@ -271,9 +412,9 @@
 \begin{frame} 
 \frametitle{Future Work}
   \begin{itemize}
-  \item Alexa is ge\"{i}nstalleerd, instellen met OpenHAB
-  \item Magnetometer localisatie
-  \item Localisatie node mee op mobiele node plaatsen
+  \item Alexa is installed, this can be combined with OpenHAB
+  \item Magnetometer localisation
+  \item Combine localisation node with mobile node
   \end{itemize}
 \end{frame}
 
